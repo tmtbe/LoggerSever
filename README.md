@@ -7,7 +7,9 @@
 ```
 # log
   发送日志  
+```php
   \Logger\Client::log( $logger_level, $logger_message, $logger_name='' );
+```
 
 # 日志等级符合Psr-3日志规范
   DEBUG：详细的debug信息  
